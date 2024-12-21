@@ -1,0 +1,54 @@
+<!-- CSC309 - Assignment 2         -->
+<!-- By: Hunter Forsyth (c3forsyt) -->
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="author" content="Hunter Forsyth">
+        <title>CSC309 - A2: Tap Tap Bug</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="js/jquery-scripts.js"></script>
+    </head>
+    <body>
+        <div class="game-frame">
+            <div class="title-screen">
+                <h1>Tap Tap Bug</h1>
+                <h2>High Score (<select id="highscore-picker">
+                      <option value="level-1">Level 1</option>
+                      <option value="level-2">Level 2</option>
+                    </select>): <span id="highscore"></span></h2>
+                <!-- This bug is an svg, the one ingame is drawn with canvas. -->
+                <center><img src="images/taptapbug.svg" style="width:300px; height:300px"/></center>
+                <div class="button-container">
+                    <button type="button" class="game-button" id="start-game-button">Start</button>
+                </div>
+            </div>
+            <div class="main-game">
+                <canvas id="main-canvas" width="400" height="640">
+                    Error: HTML5 not supported.
+                </canvas>
+                <script src="js/gameloop.js"></script>
+            </div>
+            <div class="game-over">
+                <h1>Game Over</h1>
+                <h2 id="game-over-scores"></h2>
+                <div class="button-container">
+                    <button type="button" class="game-button" id="game-over-button">OK</button>
+                </div>
+            </div>
+            <div class="game-finished">
+                <h1>You Win!</h1>
+                <h2 id="game-finished-scores"></h2>
+                <div class="button-container">
+                    <button type="button" class="game-button" id="restart-button">Restart</button>
+                    <button type="button" class="game-button" id="exit-button">Exit</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">By Hunter Forsyth for CSC309</div>
+    </body>
+</html>

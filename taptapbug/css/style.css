@@ -1,0 +1,83 @@
+/* CSC309 - Assignment 2         */
+/* By: Hunter Forsyth (c3forsyt) */
+
+body {
+    background-color: #FFF;
+}
+
+.game-frame {
+    width: 400px;
+    height: 640px; /* 600px canvas height + 40px top-bar height. */
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-game {
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px 4px #CCC;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px
+}
+
+h2 {
+    text-align: center;
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.button-container {
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #BBB;
+    text-align: center;
+
+}
+
+.game-button {
+    background-color: #FFF;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 22px;
+    outline: none;
+
+    /* Hover: */
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.game-button:hover {
+    background-color: #e62d2d;
+    color: white;
+}
+
+select {
+    background-color: white;
+    color: black;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px 2px;
+    outline: none;
+}
+
+::selection {
+    color: white;
+    background: #e62d2d
+}

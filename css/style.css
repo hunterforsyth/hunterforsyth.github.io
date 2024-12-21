@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text');
+
+body {
+  background: #1b2336;
+}
+
+a:link { color: #219bfd; }
+a:visited { color: #219bfd; }
+a:hover { color: #FCFCFC; }
+
+hr {
+  color: #5c788e30;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.content {
+  padding-top: 0.15rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-header {
+  margin: auto;
+  max-width: 60rem;
+  padding: 0rem;
+  color: #FFFFFF;
+}
+
+.container-default {
+  margin: auto;
+  max-width: 60rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  color: #FFFFFF;
+  background: #00000044;
+}
+
+.header-main {
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 2.5rem;
+  font-family: Golos Text, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  height: 4rem;
+  display: table-cell;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+
+.header-sub {
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 0.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 1.1rem;
+  font-family: Golos Text, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 1.1rem;
+  font-family: Golos Text, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  background: #00000044;
+}
+
+.descr {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1rem;
+  font-family: Golos Text, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+.fa {
+  font-size: 1.25rem;
+  position: relative;
+  top: 0.18rem;
+}
+
+.icon-link {
+  white-space: nowrap;
+  line-height: 2rem;
+  margin-right: 1.25rem;
+}
+
+.del-text {
+  color: #5c788e;
+}
+
+#header-3d {
+  position: relative;
+  top: 1rem;
+  left: -0.75rem;
+}
+
+@media only screen and (max-width: 460px) {
+  .content {
+    padding-top: 0rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .container-default {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .descr {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header-main { font-size: 2rem; }
+  .header-sub { font-size: 0.9rem; }
+  .title { font-size: 0.9rem; }
+  .descr { font-size: 0.8rem; }
+  .fa { font-size: 1.05rem; }
+}
+
+@media only screen and (max-width: 358px) {
+  #header-3d { display: none; }
+  .header-main { font-size: 1.8rem; }
+  .header-sub { font-size: 0.8rem; }
+  .title { font-size: 0.8rem; }
+  .descr { font-size: 0.7rem; }
+  .fa { font-size: 0.95rem; }
+}
+
+@media only screen and (max-width: 268px) {
+  .header-main { font-size: 1.4rem; }
+}
